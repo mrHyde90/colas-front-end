@@ -1,0 +1,23 @@
+<table>
+  <tr>
+      <td>
+          <span id="lblNuevoTicket">
+              Numero: {{elTicket.id || ""}}
+          </span>
+      </td>
+  </tr>
+  <tr>
+    <td>
+        <span id="lblNuevoTicket">
+            Sala: {{elTicket.sala || ""}}
+        </span>
+    </td>
+</tr>
+  <tr>
+      <td>
+          <button class="btn btn-secondary btn-lg" (click)="generarTicket()">
+              Generar nuevo ticket
+          </button>
+      </td>
+  </tr>
+</table>
