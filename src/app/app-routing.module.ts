@@ -8,7 +8,7 @@ import { PublicoComponent } from './pages/publico/publico.component';
 const routes: Routes = [
   {path: 'escritorio/:id', component: EscritorioComponent},
   {path: 'home', component: HomeComponent},
-  {path: 'nuevo-ticket', component: NuevoTicketComponent},
+  {path: 'apartar_mesa', component: NuevoTicketComponent},
   {path: 'publico', component: PublicoComponent},
   {path: '**', component: HomeComponent}
 ];

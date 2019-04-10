@@ -1,4 +1,38 @@
-<table>
+<div class="centrar">
+        <div class="row">
+                <div class="col-6">
+            
+                    <form (ngSubmit)="onSubmitComment(f)" #f="ngForm">
+                        <h4>Nombre</h4>
+                        <input class="form-control" type="text" name="nombre" ngModel placeholder="Nombre">
+                        <h4>Mesa para apartar</h4>
+
+                        <input class="form-control" type="text" name="mesa" ngModel placeholder="mesa1, mesa2, mesa3, mesa4">
+                        <h5>Opciones de mesa</h5>
+                        <ul class="list-group">
+                                <li  >
+                                    mesa1
+                                </li>
+                                <li >
+                                  mesa2
+                                </li>
+                                <li >
+                                    mesa3
+                                </li>
+                                <li >
+                                    mesa4
+                                </li>
+                            </ul>
+                        <br/>
+                        <button  class="btn btn-primary">Subir</button>
+                    </form>
+            
+                </div>
+            </div>
+</div>
+
+
+<!-- <table>
   <tr>
       <td>
           <span id="lblNuevoTicket">
@@ -21,3 +55,5 @@
       </td>
   </tr>
 </table>
+
+-->
