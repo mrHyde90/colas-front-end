@@ -11,6 +11,8 @@ import { NuevoTicketComponent } from './pages/nuevo-ticket/nuevo-ticket.componen
 import { PublicoComponent } from './pages/publico/publico.component';
 import { AppRoutingModule } from './app-routing.module';
 import { NgxQRCodeModule } from 'ngx-qrcode2';
+import { PagoComponent } from './pages/pago/pago.component';
+import { QrComponent } from './pages/qr/qr.component';
 
 @NgModule({
   declarations: [
@@ -18,7 +20,9 @@ import { NgxQRCodeModule } from 'ngx-qrcode2';
     EscritorioComponent,
     HomeComponent,
     NuevoTicketComponent,
-    PublicoComponent
+    PublicoComponent,
+    PagoComponent,
+    QrComponent
   ],
   imports: [
     BrowserModule,

@@ -9,3 +9,30 @@
 h5 {
     margin-top: 10px;
 }
+
+.mesa {
+    height: 150px;
+    border-width: 5px;
+    border-color: black;
+    border-radius: 10px;
+    background-color: aquamarine;
+    margin: 10px;
+    text-align: center
+}
+
+.texto {
+    padding-top: 50px; 
+}
+
+
+  .elegido{
+      background-color: brown !important;
+  }
+
+  .mesa:hover { 
+    background-color: rgb(40, 40, 124);
+    box-shadow: 15px 10px 5px 0px rgba(0,0,0,0.75);
+    -webkit-box-shadow: 15px 10px 5px 0px rgba(0,0,0,0.75);
+    -moz-box-shadow: 15px 10px 5px 0px rgba(0,0,0,0.75);
+    box-shadow: 15px 10px 5px 0px rgba(0,0,0,0.75);
+  }
